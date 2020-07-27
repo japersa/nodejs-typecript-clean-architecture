@@ -1,0 +1,34 @@
+{
+    "development": {
+        "host": {
+            "ENV": "DB_HOST_DEV"
+        },
+        "user": {
+            "ENV": "DB_USER_DEV"
+        },
+        "password": {
+            "ENV": "DB_PASSWORD_DEV"
+        },
+        "database": {
+            "ENV": "DB_NAME_DEV"
+        },
+        "driver": "mysql",
+        "multipleStatements": true
+    },
+    "test": {
+        "host": {
+            "ENV": "DB_HOST_TEST"
+        },
+        "user": {
+            "ENV": "DB_USER_TEST"
+        },
+        "password": {
+            "ENV": "DB_PASSWORD_TEST"
+        },
+        "database": {
+            "ENV": "DB_NAME_TEST"
+        },
+        "driver": "mysql",
+        "multipleStatements": true
+    }
+}
