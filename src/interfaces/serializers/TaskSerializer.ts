@@ -6,8 +6,8 @@ const _serializeSingleTask = (task: Task) => {
     id: task.id,
     title: task.title,
     description: task.description,
-    createdAt: moment(task.createdAt).tz('Asia/Tokyo').format(),
-    updatedAt: moment(task.updatedAt).tz('Asia/Tokyo').format(),
+    createdAt: moment(task.createdAt).tz('America/Bogota').format(),
+    updatedAt: moment(task.updatedAt).tz('America/Bogota').format(),
   }
 }
 
